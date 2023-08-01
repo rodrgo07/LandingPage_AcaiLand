@@ -122,6 +122,10 @@ body{
     -webkit-backdrop-filter: blur(5.5px);
 }
 
+.right-side h1, h3{
+    z-index: 4000;    
+}
+
 .right-side::after{
     content: '';
     display: block;
